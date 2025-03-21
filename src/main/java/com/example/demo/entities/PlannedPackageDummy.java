@@ -9,11 +9,7 @@ public class PlannedPackageDummy
 	int packageidobj;
 	int employeeid;
 	double packageprice;
-	
-	
-	
-	
-	
+		
 	
 	public PlannedPackageDummy(Date startdate, Date lastdate, int availseats, Date lastdate_apply, int packageidobj,
 			int employeeid, String duration, double packageprice) {

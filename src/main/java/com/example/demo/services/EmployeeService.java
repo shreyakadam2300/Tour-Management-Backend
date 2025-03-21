@@ -70,19 +70,5 @@ public class EmployeeService
 	}
 
 
-//	public int UpdatePasswordiInLogin(String encrypted, String uid)
-//	{
-//		return emprepo.UpdatePasswordiInLogin(encrypted,uid);
-//	}
-//	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }

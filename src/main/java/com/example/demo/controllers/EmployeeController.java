@@ -82,16 +82,7 @@ public class EmployeeController {
 		
 		Employee empsaved =empservice.save(emp);
 		
-		
-		
-//         SimpleMailMessage mailmsg = new SimpleMailMessage();
-//
-//		mailmsg.setFrom("takeatour28@gmail.com");
-//		mailmsg.setTo(empsaved.getE_email());
-////		mailmsg.setTo("deshpandegaurav57@gmail.com");
-//		mailmsg.setSubject("Registration Mail");
-//		mailmsg.setText("You have succefully registered and entered to Take A Tour family.. userid : "+empdummy.getUid()+"  Password : "+empdummy.getPwd());
-//		sender.send(mailmsg);
+
 		System.out.println(empsaved);
 
 		return empsaved;
@@ -134,30 +125,3 @@ public class EmployeeController {
 
 }
 
-
-
-
-
-//
-//{
-//
-//	   "postalcode" :411035, 
-//	    "e_bdate" :"2022-02-02", 
-//	    "e_hiredate":"2000-05-01", 
-//	    "e_photo": null, 
-//	    "uid" :"gaurav123", 
-//	    "pwd":"gaurav123",
-//				 "e_fname":"gaurav", 
-//	             "e_mname":"suhas",	
-//	              "e_lname":"Deshpande",
-//	               "e_designation":"Emp",
-//	                "e_adharno":"12323445",
-//	                 "e_email":"gaurav@gmail.com",
-//				 "e_contact":"9782125",
-//	              "addressline":"ravet",
-//	               "district":"Pune", 
-//	               "city":"Pune",
-//	                "state":"Maharashtra", 
-//	                "country":"India",
-//				 "e_gender":0
-//	}

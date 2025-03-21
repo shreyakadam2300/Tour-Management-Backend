@@ -31,37 +31,13 @@ public class PackageController {
 		
 	}
 	
-//	@PostMapping(value="/uploadpackageimage/{pid}",consumes = "multipart/form-data")
-//	public boolean uploadImage(@PathVariable("pid") int pid ,@RequestBody MultipartFile file )
-//	{
-//		System.out.println(pid);
-//		System.out.println(file.getName());
-//       boolean flag = true;
-//		try
-//		{
-//			
-//			packageservice.upload(pid, file.getBytes());
-//		}
-//		catch(Exception e)
-//		{
-//			flag= false;
-//		}
-//
-//		return flag;
-//		
-//	} 
+
 	
 	@GetMapping("/getallpackagesforemp")
 	public List<AddPackage> getAllPackages()
 	{
 		return packageservice.geAllPackages();
 	}
-	
-//	@GetMapping("/deletepackage")
-//	public void deletePackage(@RequestParam("packid") int pid)
-//	{
-//	      packageservice.deletePackage(pid);
-//	}
 	
 
 }

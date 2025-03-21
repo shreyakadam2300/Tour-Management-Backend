@@ -47,17 +47,6 @@ public class PackageImageController
 			return flag;
 		}
 	
-//	@PostMapping("/uploadimagepackage/{packid}")
-//	public  PackageImage insertdata(@PathVariable("packid") int pid)
-//	{
-//	
-//		AddPackage adpkg = packageserv.getPackageInfo(pid);
-//		
-//		PackageImage packimgobj = new PackageImage(adpkg);	
-//
-//		return packimgserv.insertdata(packimgobj);
-//	}
-	
 	
 	
 }

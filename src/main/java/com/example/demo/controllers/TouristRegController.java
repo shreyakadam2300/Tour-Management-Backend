@@ -78,47 +78,10 @@ public class TouristRegController
 		mailmsg.setText("You have succefully registered and entered to Take A Tour family.. userid : "+treg.getUid()+" Password : "+treg.getPwd());
 		sender.send(mailmsg);
 		
-		return trstserv.saveTourist(t);
-		
-	
-		
+		return trstserv.saveTourist(t);		
 		
 	}
-//	@PostMapping("/touristReg")
-//	public Tourist regTourist(@RequestBody TouristReg treg)
-//	
-//	{
-//		
-//		System.out.println(treg);
-//		
-//		Role r = roleservice.getRole(1);
-//		
-//		Login l = new Login(treg.getUid(),treg.getPwd(),1,r);
-//		
-//		Login lsaved = lservice.save(l);
-//		
-//		Address addr = new Address(treg.getAddressline(),treg.getDistrict(),treg.getCity(),treg.getState(),treg.getCountry(),treg.getPostalcode());
-//	
-//		Address asaved = aservice.save(addr);
-//		
-//		
-//		
-//		Tourist t = new Tourist(treg.getFname(),treg.getLname(),treg.getEmail(),treg.getContact(),asaved,lsaved);
-//		
-//		
-//		SimpleMailMessage mailmsg = new SimpleMailMessage();
-//		
-//		mailmsg.setFrom("takeatour28@gmail.com");
-//		mailmsg.setTo(t.getT_email());
-////		mailmsg.setTo("deshpandegaurav57@gmail.com");
-//		mailmsg.setSubject("Registration Mail");
-//		mailmsg.setText("You have succefully registered and entered to Take A Tour family");
-//		sender.send(mailmsg);
-//		return trstserv.saveTourist(t);
-//		
-//		
-//	}
-//	
+	
 	@GetMapping("/touristgetbyid")
 	public Tourist getTouristbyloginid(@RequestParam("tid") int id )
 	{

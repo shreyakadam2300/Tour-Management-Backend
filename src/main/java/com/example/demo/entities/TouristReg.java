@@ -122,14 +122,3 @@ public class TouristReg
 
 }
 
-
-
-
-/*
- * ---------------------------------------------------------
- * 
- * "uid" : "gauri123", "pwd" : "131014", "fname" : "Gauri", "lname" :
- * "Deshpande", "email" : "gauri@gmail.com", "contact" : "9922396015" ,
- * "addressline" : "ravet", "district" : "haveli", "city" : "pune", "state" :
- * "Maharashtra", "country" : "INDIA", "postalcode" : 411033
- */

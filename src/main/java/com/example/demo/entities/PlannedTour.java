@@ -184,11 +184,6 @@ public class PlannedTour
 	}
 
 
-
-	
-
-
-
 	@Override
 	public String toString() {
 		return "PlannedTour [tour_id=" + tour_id + ", startdate=" + startdate + ", lastdate=" + lastdate

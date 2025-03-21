@@ -126,13 +126,3 @@ public class PlannedTourController
 	}
 }
 
-/*{
-        
-        "startdate":"1998-05-25",
-        "lastdate":"1998-05-25",
-        "availseats":50,
-        "lastdate_apply":"1998-05-25",
-        "packageidobj": 3,
-        "employeeid":1 ,      
-       "status":0
-    }*/

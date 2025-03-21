@@ -48,18 +48,7 @@ public class PackageService {
 		
 		packageprepo.deleteById(pid);
 	}
-//	public boolean upload(int pid,byte[] data)
-//	{
-//		System.out.println("in service");
-//		int n = packageprepo.uploadPhoto(pid,data);
-//		System.out.println(n);
-//		if(n==1)
-//		{
-//			return true;
-//		}
-//		else
-//			return false;
-//	}
+
 
 	public List<AddPackage> geAllPackages() {
 		
@@ -67,9 +56,5 @@ public class PackageService {
 		return packageprepo.findAll();
 	}
 
-//	public AddPackage getAllLocation(String loc) {
-//		// TODO Auto-generated method stub
-//		return packageprepo.getAllLocation(loc);
-//	}
 
 }
